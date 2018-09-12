@@ -1,1 +1,1 @@
-# sitemap
+# @kerouac/sitemap
