@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "kerouac": "^0.1.0",
-    "kerouac-sitemap": "^0.4.1"
+    "kerouac-sitemap": "^0.4.2"
   },
   "devDependencies": {
     "make-node": "^0.3.0",
