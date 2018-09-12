@@ -1,0 +1,47 @@
+{
+  "name": "@kerouac/sitemap",
+  "version": "0.0.0",
+  "description": "Kerouac sitemap protocol components for Bixby.js.",
+  "keywords": [
+    "kerouac",
+    "sitemap",
+    "sitemaps"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/kerouacx-sitemap.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/kerouacx-sitemap/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./app",
+  "assembly": {
+    "namespace": "org.kerouacjs/sitemap",
+    "components": [
+      "site"
+    ]
+  },
+  "dependencies": {
+    "kerouac": "^0.1.0"
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
