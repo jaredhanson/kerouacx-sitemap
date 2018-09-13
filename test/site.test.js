@@ -22,7 +22,6 @@ describe('site', function() {
     var site = factory();
   
     it('should construct site', function() {
-      expect(site).to.be.an('object');
       expect(site.handle).to.be.a('function');
       expect(site.handle.length).to.equal(2);
     });
