@@ -1,6 +1,6 @@
 {
   "name": "@kerouac/sitemap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kerouac sitemap protocol components for Bixby.js.",
   "keywords": [
     "kerouac",
