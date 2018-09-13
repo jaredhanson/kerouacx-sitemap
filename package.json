@@ -28,7 +28,7 @@
   ],
   "main": "./app",
   "assembly": {
-    "namespace": "org.kerouacjs/sitemap",
+    "namespace": "org.kerouacjs/www/sitemap",
     "components": [
       "site"
     ]
