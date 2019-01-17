@@ -12,7 +12,7 @@ describe('@kerouac/sitemap', function() {
       expect(json.assembly.namespace).to.equal('org.kerouacjs/sitemap');
       
       expect(json.assembly.components).to.have.length(1);
-      expect(json.assembly.components).to.include('site');
+      expect(json.assembly.components).to.include('protocol');
     });
   });
   

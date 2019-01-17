@@ -30,7 +30,7 @@
   "assembly": {
     "namespace": "org.kerouacjs/sitemap",
     "components": [
-      "site"
+      "protocol"
     ]
   },
   "dependencies": {
