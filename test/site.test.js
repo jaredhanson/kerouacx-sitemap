@@ -11,10 +11,7 @@ describe('site', function() {
   });
   
   it('should be annotated', function() {
-    expect(factory['@implements']).to.deep.equal([
-      'http://i.kerouacjs.org/Site',
-      'http://i.kerouacjs.org/www/sitemap/Site'
-    ]);
+    expect(factory['@implements']).to.equal('http://i.kerouacjs.org/Site');
     expect(factory['@singleton']).to.be.undefined;
   });
   
